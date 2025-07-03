@@ -361,7 +361,8 @@ async def send_outreach_email(server, sender_email, contact_info, papers_df, sub
     '@' not in recipient_email or \
     "email" in recipient_email or \
     "myfirstname" in recipient_email or \
-    "mylastname" in recipient_email:
+    "mylastname" in recipient_email or \
+    "admissions" in recipient_email:
         print(f"Skipping {author_name} due to invalid email.")
         return
 
