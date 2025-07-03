@@ -15,7 +15,7 @@ The repository comes with papers from 2022-2024 pre-loaded, but earlier years ca
 
 ## Usage
 
-The tool operates in two main modes: `scrape` and `analyze`.
+The tool operates in three main modes: `scrape`, `analyze`, and `outreach`.
 
 ### 1. Scrape Mode
 
@@ -59,9 +59,37 @@ Once in analyze mode, you can use the following commands:
   - Example: `/top 15`
 - `/from "<institution>"`: Show the top authors from a specific institution. The institution name should be in quotes.
   - Example: `/from "Google"`
-- `/getcontacts <k> ["institution"]`: Scrape contact information for the top `k` authors. You can optionally filter by institution.
-  - Example (top 5 overall authors): `/getcontacts 5`
-  - Example (top 3 authors from "Stanford University"): `/getcontacts 3 "Stanford University"`
+- `/findcontact "<name_or_email>"`: Finds contact info (Website, LinkedIn, Google Scholar, Email) and papers for a specific author.
+  - Example by name: `/findcontact "John Doe"`
+  - Example by email: `/findcontact "j.doe@university.edu"`
+- `/getcontacts <k> ["inst1"] ["inst2"]... [-save [filename.csv]] [--send-email]`: Scrapes contact info.
+    - Gets the top `k` authors from each specified institution/group.
+    - If no institution is given, it gets the top `k` authors overall.
+    - `-save [filename.csv]`: Optionally saves the contacts to a CSV file (defaults to `contacts.csv`).
+    - `--send-email`: After scraping, prompts to send outreach emails immediately.
+  - **Examples:**
+    - Get top 5 authors overall: `/getcontacts 5`
+    - Get top 3 authors from Google and top 3 from Stanford University: `/getcontacts 3 "Google" "Stanford University"`
+    - Get top 2 from Stanford, save to `stanford_contacts.csv`, and send emails: `/getcontacts 2 "Stanford University" -save stanford_contacts.csv --send-email`
 - `/help`: Display the list of available commands.
 - `/clear`: Clear the terminal screen.
 - `/exit`: Exit the interactive analysis tool.
+
+### 3. Outreach Mode
+This mode sends outreach emails based on a contacts CSV file. Note that all PDFs stored in the `/mail` subdirectory will be sent as attachments to the email outlined by the template. Also note that the first line in the text file will be used as the subject, and all subsequent lines for the body.
+
+**Command:**
+```bash
+python research.py outreach
+```
+
+**Arguments:**
+- `--contacts-file`: (Optional) CSV file with contact information. Defaults to `contacts.csv`.
+- `--email-template`: (Optional) Text file with the email template. Defaults to `mail/template.txt`.
+- `--prof`: (Optional) Use 'Professor' as the title in the email salutation.
+- `--test <email>`: (Optional) Send all emails to a test address instead of the actual recipients.
+
+**Example:**
+```bash
+python research.py outreach --test mytestemail@example.com
+```

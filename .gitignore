@@ -9,3 +9,6 @@ __pycache__/
 .Python
 env/
 venv/
+
+# PDFs
+*.pdf

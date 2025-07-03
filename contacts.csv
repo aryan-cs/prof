@@ -1,51 +1,421 @@
 Author,Affiliation,Website,LinkedIn,Email
-Kun Zhang,CMU & MBZUAI,https://www.andrew.cmu.edu/user/kunz1/,N/A,n/a
-Beidi Chen,CMU / FAIR,https://engineering.cmu.edu/directory/bios/chen-beidi.html,N/A,n/a
-Yuanzhi Li,CMU,https://www.linkedin.com/in/yuanzhi-li-27899621a,https://www.linkedin.com/in/yuanzhi-li-27899621a,n/a
-Guangyi Chen,MBZUAI&CMU,/search?num=7,N/A,n/a
-Benjamin Eysenbach,"CMU, Google",https://ben-eysenbach.github.io/,https://www.linkedin.com/in/benjamin-eysenbach-a7235775,eysenbach@princeton.edu
-Tuomas Sandholm,"CMU, Strategic Machine, Strategy Robot, Optimized Markets",http://www.cs.cmu.edu/~sandholm/,https://www.linkedin.com/in/tuomas-sandholm-15b1045,n/a
-Andrej Risteski,CMU,https://csd.cmu.edu/people/faculty/andrej-risteski,N/A,aristesk@andrew.cmu.edu
-Shentong Mo,"CMU, Carnegie Mellon University",https://scholar.google.com/citations?user=6aYncPAAAAAJ&hl=en,N/A,n/a
-Hongyi Wang,"CMU, Carnegie Mellon University",https://hwang595.github.io/,N/A,hongyiwa@andrew.cmu.edu
-Huan Zhang,CMU,https://huan-zhang.com/pdf/Huan_Zhang_CV_2023.pdf,N/A,n/a
-Eric Xing,CMU/MBZUAI/GenBio,https://mbzuai.ac.ae/study/faculty/professor-eric-xing/,N/A,n/a
-Yuejie Chi,CMU,https://www.ece.cmu.edu/directory/bios/chi-yuejie.html,https://www.linkedin.com/in/yuejiechi,admins@ece.cmu.edu
-Stephen McAleer,CMU,https://mcaleste.github.io/,https://www.linkedin.com/in/stephen-mcaleer,n/a
-Andy Zou,"CMU, Carnegie Mellon University",https://csd.cmu.edu/people/doctoral-student/andy-zou,https://www.linkedin.com/in/andyzoujm,andyzou@cmu.edu
-Jeff Schneider,CMU,https://www.cmu.edu/cmist/about-us/people/faculty-affiliates/jeff-schneider.html,https://www.linkedin.com/in/jeff-schneider-1593b322,cmist@andrew.cmu.edu
-Ruslan Salakhutdinov,CMU,https://www.cs.cmu.edu/~rsalakhu/contact.html,N/A,rsalakhu@cs.cmu.edu
-Yiming Yang,CMU,https://scholars.cmu.edu/5207-yiming-yang,N/A,info@indiantypefoundry.com
-Ameet Talwalkar,CMU,https://www.cs.cmu.edu/~atalwalk/,https://www.linkedin.com/in/atalwalkar,n/a
-Mikhail Khodak,CMU,https://datascience.uchicago.edu/people/mikhail-khodak/,N/A,cropped-dsi_logo_favicon@2x-32x32.png
-Misha Khodak,CMU,https://pages.cs.wisc.edu/~khodak/,N/A,n/a
-Zachary Lipton,CMU & Abridge,https://www.zacharylipton.com/,https://www.linkedin.com/in/zacharylipton,zlipton@cmu.edu
-Xinshuai Dong,CMU,https://www.cmu.edu/dietrich/philosophy/people/phd/xinshuai-dong.html,N/A,n/a
-László Jeni,CMU,https://www.ri.cmu.edu/ri-faculty/laszlo-attila-jeni/,N/A,n/a
-Matt Fredrikson,CMU,https://www.cylab.cmu.edu/directory/bios/fredrikson-matt.html,N/A,n/a
-Giulia Fanti,CMU,https://www.ece.cmu.edu/directory/bios/fanti-giulia.html,https://www.linkedin.com/in/giulia-fanti-7b8758248,admins@ece.cmu.edu
-Leman Akoglu,CMU,https://www.heinz.cmu.edu/faculty-research/profiles/akoglu-leman,N/A,lakoglu@cs.cmu.edu
-Yongqiang Chen,MBZUAI/CMU,https://openreview.net/profile?id=~Yongqiang_Chen1,N/A,n/a
-Albert Gu,"CMU, Cartesia",https://csd.cmu.edu/people/faculty/albert-gu,https://www.linkedin.com/in/albert-gu-8ab677139,n/a
-Guanya Shi,"CMU, Carnegie Mellon University",https://www.ece.cmu.edu/directory/bios/shi-guanya.html,https://www.linkedin.com/in/guanya-shi-b07b43126,n/a
-Vasu Sharma,Meta AI/ CMU,https://www.linkedin.com/in/vasu-sharma55,https://www.linkedin.com/in/vasu-sharma55,n/a
-Yonatan Bisk,LTI @ CMU,https://www.lti.cs.cmu.edu/people/faculty/bisk-yonatan.html,N/A,n/a
-Yingtao Luo,"CMU, Carnegie Mellon University",https://www.heinz.cmu.edu/faculty-research/profiles/yingtao-luo/,https://www.linkedin.com/in/yingtaoluo,n/a
-Zhenqiao Song,"CMU, Carnegie Mellon University",https://www.lti.cs.cmu.edu/people/students/song-zoey.html,https://www.linkedin.com/in/zhenqiao-song-5939aa258,n/a
-Han Guo,CMU,https://han-guo.info/,https://www.linkedin.com/in/han-guo,n/a
-Ilmun Kim,CMU,https://ilmunk.github.io/,N/A,n/a
-Amir Barati Farimani,"CMU, Carnegie Mellon University",https://www.meche.engineering.cmu.edu/directory/bios/barati-farimani-amir.html,N/A,n/a
-Yaqi Xie,CMU,https://www.ri.cmu.edu/ri-people/yaqi-xie/,https://www.linkedin.com/in/yaqi-xie,n/a
-Nari Johnson,"CMU, Carnegie Mellon University",https://njohnson99.github.io/,https://www.linkedin.com/in/nari-johnson-a0b7a912b,n/a
-Stefani Karp,Google/CMU,https://skarp.github.io/,https://www.linkedin.com/in/stefani-karp-201a83158,shkarp@cs.cmu.edu
-Shuai Wang,"CMU, Carnegie Mellon University",https://mcds.cs.cmu.edu/people/222215393/shuai-wang,https://www.linkedin.com/in/shuaiwa,ltiwebmaster@cs.cmu.edu
-Hao Chen,"CMU, Carnegie Mellon University",https://www.linkedin.com/in/haochen97,https://www.linkedin.com/in/haochen97,n/a
-Shashank Singh,CMU/Google,https://sss1.github.io/,N/A,shashankssingh44@gmail.com
-Jiatong Shi,"CMU, Carnegie Mellon University",https://www.lti.cs.cmu.edu/people/students/shi-jiatong.html,https://www.linkedin.com/in/jiatong-shi-608b3016b,n/a
-Francisco Vicente Carrasco,"CMU, Carnegie Mellon University",https://www.ri.cmu.edu/ri-people/francisco-vicente-carrasco/,https://www.linkedin.com/in/francisco-vicente-carrasco-32a508144,n/a
-Lu Jiang,"ByteDance, CMU",http://www.lujiang.info/,https://www.linkedin.com/in/roadjiang,roadjiang@yahoo.com
-Yining Wang,CMU,https://yining-wang.com/,https://www.linkedin.com/in/yiningwang-nora,n/a
-PRANAY SHARMA,CMU,https://sites.google.com/view/pranay-sharma/home,N/A,pranaysh@andrew.cmu.edu
-Christos Faloutsos,CMU,http://www.cs.cmu.edu/~christos/,N/A,christos.faloutsos@gmail.com
-Hanzhi Yin,"CMU, Carnegie Mellon University",https://csd.cmu.edu/people/staff/hanzhi-yin,https://www.linkedin.com/in/hanzhi-yin-5b30a2189,hanzhiy@andrew.cmu.edu
-Jinkun Cao,"CMU, Carnegie Mellon University",https://www.ri.cmu.edu/ri-people/jinkun-cao/,https://www.linkedin.com/in/jinkun-cao-09470b105,n/a
+Percy Liang,Stanford University,https://cs.stanford.edu/~pliang/,n/a,
+Jiajun Wu,Stanford University,https://profiles.stanford.edu/jiajun-wu,n/a,
+Stefano Ermon,Stanford University,https://profiles.stanford.edu/stefano-ermon,n/a,
+Jure Leskovec,Stanford University/Pinterest,https://profiles.stanford.edu/jure-leskovec,https://www.linkedin.com/in/leskovec,
+Tengyu Ma,Stanford University,https://profiles.stanford.edu/tengyu-ma,n/a,
+Noah Goodman,Stanford University,https://cocolab.stanford.edu/ndg,n/a,ngoodman@stanford.edu
+Chelsea Finn,Stanford University,https://engineering.stanford.edu/people/chelsea-finn,https://www.linkedin.com/in/cbfinn,cbfinn@cs.stanford.edu
+Christopher Re,Stanford University,https://profiles.stanford.edu/christopher-re,n/a,
+Minkai Xu,Stanford University,https://minkaixu.com/,https://www.linkedin.com/in/minkaixu,minkai@cs.stanford.edu
+Jose Blanchet,Stanford University,https://web.stanford.edu/~jblanche/,n/a,jblanche@stanford.edu
+Michael Poli,Stanford University,https://zymrael.github.io/,https://www.linkedin.com/in/michael-poli-363492a4,polimic03@gmail.com
+Silvio Savarese,Stanford University,https://legacy.cs.stanford.edu/directory/faculty,n/a,admissions@cs.stanford.edu
+Tatsunori Hashimoto,Stanford University,https://profiles.stanford.edu/tatsunori-hashimoto,n/a,
+Marco Pavone,Stanford University,https://profiles.stanford.edu/marco-pavone,n/a,
+Michihiro Yasunaga,Stanford University,https://cs.stanford.edu/~myasu/,https://www.linkedin.com/in/michiyasunaga/,myasu@stanford.edu
+James Y Zou,Stanford University,https://profiles.stanford.edu/james-zou,n/a,
+Chenlin Meng,Stanford University,https://cs.stanford.edu/~chenlin/,https://www.linkedin.com/in/chenlin-meng-58b862290,chenlin@stanford.edu
+Christopher Manning,"Computer Science Department, Stanford University",https://profiles.stanford.edu/chris-manning,n/a,
+Gordon Wetzstein,Stanford University,https://stanford.edu/~gordonwz/,n/a,gordon.wetzstein@stanford.edu
+Zhiyuan Li,"Computer Science Department, Stanford University",https://legacy.cs.stanford.edu/directory/staff,n/a,admissions@cs.stanford.edu
+Kun Zhang,Carnegie Mellon University,https://www.andrew.cmu.edu/user/kunz1/,n/a,kunz1@cmu.edu
+David Woodruff,Carnegie Mellon University,http://www.cs.cmu.edu/~dwoodruf/,n/a,dwoodruf@andrew.cmu.edu
+Steven Wu,Carnegie Mellon University,https://www.cylab.cmu.edu/directory/bios/wu-steven.html,n/a,zstevenwu@cmu.edu
+Xiang Li,Carnegie Mellon University,https://mcds.cs.cmu.edu/people/222197688/xiang-li,https://www.linkedin.com/in/xiang-li-40420814b,ltiwebmaster@cs.cmu.edu
+J. Zico Kolter,Carnegie Mellon University / Bosch Center for AI,https://www.carnegiebosch.cmu.edu/team/bios/kolter-zico.html,n/a,zkolter@cs.cmu.edu
+Graham Neubig,Carnegie Mellon University,https://www.phontron.com/contact.php,n/a,gneubig@andrew.cmu.edu
+Zico Kolter,Carnegie Mellon University and Bosch Center for AI,https://www.carnegiebosch.cmu.edu/team/bios/kolter-zico.html,https://www.linkedin.com/in/zico-kolter-560382a4,zkolter@cs.cmu.edu
+Pradeep Ravikumar,Carnegie Mellon University,https://www.cs.cmu.edu/~pradeepr/PR_contact.html,n/a,pkr@andrew.cmu.edu
+Aaditya Ramdas,Carnegie Mellon University,https://csd.cmu.edu/people/faculty/aaditya-ramdas,n/a,aramdas@andrew.cmu.edu
+Yuejie Chi,Carnegie Mellon University,https://engineering.cmu.edu/directory/bios/chi-yuejie.html,n/a,yuejiechi@cmu.edu
+Zachary Lipton,Carnegie Mellon University,https://www.zacharylipton.com/,https://www.linkedin.com/in/zacharylipton,zlipton@cmu.edu
+Bhiksha Raj,Carnegie Mellon University,https://engineering.cmu.edu/directory/bios/ramakrishnan-bhiksha-raj.html,n/a,bhiksha@cs.cmu.edu
+Saurabh Garg,Carnegie Mellon University,https://openreview.net/profile?id=~Saurabh_Garg3,https://www.linkedin.com/in/saurabh-garg-b680b5b8,n/a
+DING ZHAO,Carnegie Mellon University,https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html,n/a,dingzhao@cmu.edu
+Virginia Smith,Carnegie Mellon University,https://engineering.cmu.edu/directory/bios/smith-virginia.html,n/a,smithv@cmu.edu
+Aditi Raghunathan,Carnegie Mellon University,https://csd.cmu.edu/people/faculty/aditi-raghunathan,n/a,raditi@cmu.edu
+Samuel Sokota,Carnegie Mellon University,https://ssokota.github.io/,https://www.linkedin.com/in/samuel-sokota-87a153149,ssokota@andrew.cmu.edu
+Maria-Florina Balcan,Carnegie Mellon University,https://csd.cmu.edu/people/faculty/maria-balcan,n/a,ninamf@cs.cmu.edu
+Gokul Swamy,Carnegie Mellon University,https://gokul.dev/,https://www.linkedin.com/in/gokul-swamy,gswamy@cmu.edu
+Deepak Pathak,Carnegie Mellon University,https://www.cs.cmu.edu/~dpathak/,https://www.linkedin.com/in/pathak22,umepc@aah.tud.skdc
+Yilun Du,Massachusetts Institute of Technology,https://yilundu.github.io/,https://www.linkedin.com/in/yilun-du-04a831112,ydu@seas.harvard.edu
+Phillip Isola,Massachusetts Institute of Technology,http://web.mit.edu/phillipi/,https://www.linkedin.com/in/phillip-isola-a9955b20,phillip.isola@gmail.com
+Sandeep Silwal,Massachusetts Institute of Technology,https://openreview.net/profile?id=~Sandeep_Silwal1,n/a,n/a
+Shayne Longpre,Massachusetts Institute of Technology,https://www.shaynelongpre.com/,https://www.linkedin.com/in/shayne-redford-longpre,slongpre@media.mit.edu
+Jacob Andreas,Massachusetts Institute of Technology,https://www.eecs.mit.edu/people/jacob-andreas/,n/a,n/a
+Caroline Uhler,Massachusetts Institute of Technology,https://idss.mit.edu/staff/caroline-uhler/,n/a,cuhler@mit.edu
+Bailin Wang,Massachusetts Institute of Technology,https://rocketreach.co/bailin-wang-email_41690134,https://www.linkedin.com/in/bailin-wang-426a675b,n/a
+Yifei Wang,Massachusetts Institute of Technology,https://lmas-mobile.mit.edu/courses/person?courseID=&term=ia24&filter=Yi+Jenny+Wang&uid=uid%3Dyifei_w%2COU%3Dusers%2COU%3Dmoira%2Cdc%3DMIT%2Cdc%3DEDU&_b=%5B%7B%22t%22%3A%22Stellar%22%2C%22lt%22%3A%22Stellar%22%2C%22p%22%3A%22index%22%2C%22a%22%3A%22%22%7D%2C%7B%22t%22%3A%22Guide%22%2C%22lt%22%3A%22Course+Guide%22%2C%22p%22%3A%22catalog%22%2C%22a%22%3A%22feed%3Dcatalog%26term%3Dfa21%22%7D%2C%7B%22t%22%3A%222%22%2C%22lt%22%3A%22Mechanical+Engineering+%28Course+2%29%22%2C%22p%22%3A%22catalogarea%22%2C%22a%22%3A%22term%3Dfa21%26area%3D2%22%7D%2C%7B%22t%22%3A%222.854%22%2C%22lt%22%3A%22Introduction+to+Manufacturing+Systems%22%2C%22p%22%3A%22catalogcourse%22%2C%22a%22%3A%22term%3Dfa21%26area%3D2%26courseID%3D2.854%22%7D%2C%7B%22t%22%3A%22Search+Results%22%2C%22lt%22%3A%22Search+Results%22%2C%22p%22%3A%22people%22%2C%22a%22%3A%22filter%3DYi%2BJenny%2BWang%22%7D%5D,n/a,yifei_w@mit.edu
+Tianlong Chen,Massachusetts Institute of Technology,https://tianlong-chen.github.io/,n/a,tianlong@cs.unc.edu
+William Wang,Massachusetts Institute of Technology,https://openreview.net/profile?id=~William_Wei_Wang1,https://www.linkedin.com/in/william-wang-3b6b47231,mta-request@mit.edu
+Tess Smidt,Massachusetts Institute of Technology,https://www.eecs.mit.edu/people/tess-smidt/,n/a,tsmidt@mit.edu
+Mathias Lechner,Massachusetts Institute of Technology,https://mlech26l.github.io/,https://www.linkedin.com/in/mlech26l,mathias.lechner@ist.ac.at
+Gabriele Farina,Massachusetts Institute of Technology,http://www.mit.edu/~gfarina/about/,n/a,gfarina@mit.edu
+Khashayar Gatmiry,Massachusetts Institute of Technology,https://rocketreach.co/khashayar-gatmiry-email_352016473,https://www.linkedin.com/in/khashayar-gatmiry-266a17175,n/a
+Dhruv Rohatgi,Massachusetts Institute of Technology,https://www.mit.edu/~drohatgi/,n/a,n/a
+Bowen Jing,Massachusetts Institute of Technology,https://people.csail.mit.edu/bjing/,n/a,lxpowers@stanford.edu
+Daniela Rus,Massachusetts Institute of Technology,https://danielarus.csail.mit.edu/index.php/contact/,n/a,rus-press@csail.mit.edu
+Jian Qian,Massachusetts Institute of Technology,https://lids.mit.edu/people,n/a,mabate@mit.edu
+Shyam Narayanan,Massachusetts Institute of Technology,https://sites.google.com/view/shyamnarayanan/home,https://www.linkedin.com/in/shyamsnarayanan,andersaamanda@gmail.com
+Hao He,Massachusetts Institute of Technology,https://openreview.net/profile?id=~Hao_He1,n/a,haohe@mit.edu
+Chuang Gan,MIT/MIT-IBM Watson AI Lab,https://people.csail.mit.edu/ganchuang/,n/a,ganchuang@csail.edu.com
+Tommi Jaakkola,MIT,https://stat.mit.edu/people/tommi-s-jaakkola/,n/a,tommi@csail.mit.edu
+Josh Tenenbaum,MIT,https://cocosci.mit.edu/josh,n/a,jbt@mit.edu
+Pulkit Agrawal,MIT,https://people.csail.mit.edu/pulkitag/,https://www.linkedin.com/in/pulkit-agrawal-967a4218,pulkitag@mit.edu
+Stefanie Jegelka,MIT,https://idss.mit.edu/staff/stefanie-jegelka/,n/a,stefje@csail.mit.edu
+Joshua B Tenenbaum,MIT,http://web.mit.edu/cocosci/josh.html,n/a,cocosci-urop@mit.edu
+Mikhail Yurochkin,"IBM Research, MIT-IBM Watson AI Lab",https://moonfolk.github.io/,n/a,moonfolk@umich.edu
+Rameswar Panda,MIT-IBM Watson AI Lab,https://mitibmwatsonailab.mit.edu/people/rameswar-panda/,https://www.linkedin.com/in/rameswar-panda-0067b2ab,rpanda@ibm.com
+Alexander Rakhlin,MIT,https://idss.mit.edu/staff/alexander-sasha-rakhlin/,n/a,rakhlin@mit.edu
+Patrick Jaillet,MIT,https://idss.mit.edu/staff/patrick-jaillet/,n/a,jaillet@mit.edu
+Yilun Du,MIT,https://yilundu.github.io/,https://www.linkedin.com/in/yilun-du-04a831112,ydu@seas.harvard.edu
+Aleksander Madry,MIT,https://stat.mit.edu/people/aleksander-madry/,n/a,madry@mit.edu
+Marzyeh Ghassemi,MIT,https://hst.mit.edu/faculty-research/faculty/ghassemi-marzyeh,n/a,hst@mit.edu
+Suvrit Sra,MIT,https://www.eecs.mit.edu/people/suvrit-sra/,n/a,suvrit@mit.edu
+Antonio Torralba,MIT,http://web.mit.edu/torralba/www/,n/a,news@csail.mit.edu
+Piotr Indyk,MIT,https://people.csail.mit.edu/indyk/,n/a,news@csail.mit.edu
+Hao Wang,MIT-IBM Watson AI Lab,https://mitibmwatsonailab.mit.edu/people/hao-wang/,n/a,hao-wang@redhat.com
+Daniela Rus,MIT,https://danielarus.csail.mit.edu/index.php/contact/,n/a,rus-press@csail.mit.edu
+Akash Srivastava,MIT IBM,https://mitibmwatsonailab.mit.edu/people/akash-srivastava/,https://www.linkedin.com/in/dr-akash-sri,n/a
+Wojciech Matusik,MIT,https://cdfg.mit.edu/wojciech,https://www.linkedin.com/in/wojciech-matusik-67238126,wojciech@mit.edu
+Mengdi Wang,Princeton University,https://ece.princeton.edu/people/mengdi-wang,n/a,mengdiw@princeton.edu
+Jason Lee,Princeton University,https://ece.princeton.edu/people/jason-d-lee,n/a,jasond+mylastname+88@gmail.com
+Sanjeev Arora,Princeton University,https://www.cs.princeton.edu/~arora/,n/a,arora@cs.princeton.edu
+Prateek Mittal,Princeton University,https://ece.princeton.edu/people/prateek-mittal,n/a,pmittal@princeton.edu
+Chi Jin,Princeton University,https://ece.princeton.edu/people/chi-jin,n/a,chij@princeton.edu
+Danqi Chen,Princeton University,https://www.cs.princeton.edu/~danqic/,n/a,danqic@cs.princeton.edu
+Karthik Narasimhan,Princeton University,https://www.cs.princeton.edu/people/profile/karthikn,n/a,karthikn@cs.princeton.edu
+Elad Hazan,Princeton University,https://www.cs.princeton.edu/people/profile/ehazan,n/a,ehazan@cs.princeton.edu
+Shunyu Yao,Princeton University,https://contactout.com/shunyu-yao-49154,https://www.linkedin.com/in/shunyu-yao-099a41115,shunyuy@princeton.edu
+Tom Griffiths,Princeton University,https://psychology.princeton.edu/people/tom-griffiths,n/a,tomg@cs.princeton.edu
+Minshuo Chen,Princeton University,https://minshuochen.github.io/CV_cms.pdf,n/a,mchen393@gatech.edu
+Yangsibo Huang,Princeton University,https://hazelsuko07.github.io/yangsibo/,https://www.linkedin.com/in/yangsibo-huang-816b6713a,aramaswamis@gmail.com
+Mengzhou Xia,Princeton University,https://xiamengzhou.github.io/,https://www.linkedin.com/in/mengzhou-xia-938845105,mengzhou@princeton.edu
+Ming Yin,Princeton University,https://ece.princeton.edu/people/ming-yin,n/a,datasets@github.com
+Jiachen (Tianhao) Wang,Princeton University,https://tianhaowang.netlify.app/,https://www.linkedin.com/in/tian-hao-wang,elliethieu.amherst@gmail.com
+Kaifeng Lyu,Princeton University,https://kaifeng.ac/,n/a,vfleaking@gmail.com
+Sadhika Malladi,Princeton University,https://pli.princeton.edu/people/sadhika-malladi,https://www.linkedin.com/in/sadhikamalladi,n/a
+Olga Russakovsky,Princeton University,https://ece.princeton.edu/people/olga-russakovsky,n/a,olgarus@cs.princeton.edu
+Xuezhou Zhang,Princeton University,https://zhangxz1123.github.io/,n/a,xuezhouz@bu.edu
+Alexander Wettig,Princeton University,https://www.cs.princeton.edu/~awettig/,https://www.linkedin.com/in/alexander-wettig,jaduol@cs.princeton.edu
+Pan Li,Georgia Institute of Technology,https://www.scheller.gatech.edu/directory/faculty/li/index.html,n/a,pan.li@scheller.gatech.edu
+Judy Hoffman,Georgia Institute of Technology,https://research.gatech.edu/people/judy-hoffman,https://www.linkedin.com/in/judy-hoffman-ai,judy@gatech.edu
+Yuchen Zhuang,Georgia Institute of Technology,https://www.cc.gatech.edu/people/yuchen-zhuang,https://www.linkedin.com/in/yuchen-zhuang-517121174,yczhuang@gatech.edu
+Chen Liang,Georgia Institute of Technology,https://ece.gatech.edu/directory/liangliang-chen,n/a,liangliang.chen@gatech.edu
+Vidya Muthukumar,Georgia Institute of Technology,https://ece.gatech.edu/directory/vidya-k-muthukumar,n/a,vmuthukumar8@gatech.edu
+Kai Wang,Georgia Institute of Technology,https://guaguakai.com/,n/a,kwang692@gatech.edu
+Eva Dyer,Georgia Institute of Technology,https://research.gatech.edu/people/eva-dyer,n/a,evadyer@gatech.edu
+Yongxin Chen,Georgia Institute of Technology,https://yongxin.ae.gatech.edu/,n/a,yongchen@gatech.edu
+Qingru Zhang,Georgia Institute of Technology,https://helloqirun.github.io/,https://www.linkedin.com/in/qingru-zhang-4b789a187,qrzhang@gatech.edu
+Chao Zhang,Georgia Institute of Technology,https://www.cc.gatech.edu/people/chao-zhang,n/a,chaozhang@gatech.edu
+Guan-Horng Liu,Georgia Institute of Technology,https://ghliu.github.io/,https://www.linkedin.com/in/guanhorngliu,ghliu@meta.com
+Evangelos Theodorou,Georgia Institute of Technology,https://sites.gatech.edu/acds/contact/,https://www.linkedin.com/in/evangelos-theodorou-818570103,evangelos.theodorou@gatech.edu
+Simiao Zuo,Georgia Institute of Technology,https://rocketreach.co/simiao-zuo-email_295179965,https://www.linkedin.com/in/simiao-zuo-833036123,privacy@gatech.edu
+Anqi Wu,Georgia Institute of Technology,https://people.research.gatech.edu/node/18557,n/a,anqiwu@gatech.edu
+Yao Xie,Georgia Institute of Technology,https://www2.isye.gatech.edu/~yxie77/,n/a,yao.c.xie@gmail.com
+Le Song,Ant Financial & Georgia Institute of Technology,/search?num=7,n/a,finaid@gatech.edu
+Mehdi Azabou,Georgia Institute of Technology,https://grad.gatech.edu/events/phd-defense-mehdi-azabou,https://www.linkedin.com/in/mehdiazabou,privacy@gatech.edu
+Molei Tao,Georgia Institute of Technology,https://mtao8.math.gatech.edu/,n/a,mtao@gatech.edu
+Yonggan Fu,Georgia Institute of Technology,https://www.yongganfu.com/,https://www.linkedin.com/in/yonggan-fu-b211831b0,kshaikh6@gatech.edu
+Tianrong Chen,Georgia Institute of Technology,https://tianrongchen.github.io/,https://www.linkedin.com/in/tianrong-chen-757b3216a,%74%63%68%65%6e%34%32%39@%67%61%74%65%63%68.%65%64%75
+Sergey Levine,UC Berkeley,https://people.eecs.berkeley.edu/~svlevine/,n/a,fvasquez@berkeley.edu
+Pieter Abbeel,UC Berkeley & Covariant,https://www2.eecs.berkeley.edu/Faculty/Homepages/abbeel.html,n/a,pabbeel@cs.berkeley.edu
+Michael Jordan,UC Berkeley,https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html,n/a,jordan@cs.berkeley.edu
+Michael Mahoney,UC Berkeley,https://www.stat.berkeley.edu/~mmahoney/,n/a,mmahoney@stat.berkeley.edu
+Jacob Steinhardt,UC Berkeley,https://jsteinhardt.stat.berkeley.edu/,n/a,jsteinhardt@berkeley.edu
+Kurt Keutzer,"EECS, UC Berkeley",https://www2.eecs.berkeley.edu/Faculty/Homepages/keutzer.html,n/a,keutzer@berkeley.edu
+Alexei Efros,UC Berkeley,https://www2.eecs.berkeley.edu/Faculty/Homepages/efros.html,n/a,efros@eecs.berkeley.edu
+Dawn Song,UC Berkeley,https://www2.eecs.berkeley.edu/Faculty/Homepages/song.html,https://www.linkedin.com/in/dawn-song-51586033,dawnsong@cs.berkeley.edu
+Jiashi Feng,UC Berkeley,https://openreview.net/profile?id=~Jiashi_Feng1,n/a,n/a
+Tianjun Zhang,UC Berkeley,https://tianjunz.github.io/,https://www.linkedin.com/in/tianjun-zhang-333bb2126,tianjunz@berkeley.edu
+Sherry Yang,"UC Berkeley, Google DeepMind",https://sherryy.github.io/,https://www.linkedin.com/in/sherrymy,sherryy@google.com
+Anca Dragan,UC Berkeley,https://people.eecs.berkeley.edu/~anca/contact.html,n/a,anca@berkeley.edu
+Shanghang Zhang,UC Berkeley,https://www.shanghangzhang.com/contact-me,https://www.linkedin.com/in/shanghang-zhang-4b5b226a,605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com
+Joseph Gonzalez,UC Berkeley,https://people.eecs.berkeley.edu/~jegonzal/,n/a,jegonzal@eecs.berkeley.edu
+Kannan Ramchandran,UC Berkeley,https://people.eecs.berkeley.edu/~kannanr/,n/a,kannanr@eecs.berkeley.edu
+Yi Ma,UC Berkeley,https://people.eecs.berkeley.edu/~yima/,n/a,yima@eecs.berkeley.edu
+Jingfeng Wu,UC Berkeley,https://uuujf.github.io/,https://www.linkedin.com/in/uuujf,uuujf@berkeley.edu
+Stuart Russell,UC Berkeley,https://people.eecs.berkeley.edu/~russell/,n/a,jp@humancompatible.ai
+Aviral Kumar,UC Berkeley,https://aviralkumar2907.github.io/,n/a,aviralku@andrew.cmu.edu
+Michael Dennis,UC Berkeley,https://bcommons.berkeley.edu/automatic-curriculum-generation-and-emergent-complexity-inter-agent-competition,https://www.linkedin.com/in/michaeld1729,michael_dennis@berkeley.edu
+Simon Du,University of Washington,https://www.cs.washington.edu/people/faculty/simon-du/,https://www.linkedin.com/in/simon-shaolei-du-71b2a952,ssdu@cs.washington.edu
+Ludwig Schmidt,University of Washington,https://www.engr.washington.edu/facresearch/newfaculty/2021/schmidt,n/a,ludwigsc@stanford.edu
+Sewoong Oh,University of Washington,https://www.cs.washington.edu/people/faculty/sewoong-oh/,n/a,sewoong@cs.washington.edu
+Luke Zettlemoyer,University of Washington; Meta,https://www.cs.washington.edu/people/faculty/luke-zettlemoyer/,n/a,lsz@cs.washington.edu
+Yejin Choi,University of Washington,https://yejinc.github.io/,n/a,yejinc@stanford.edu
+Ali Farhadi,"University of Washington, Allen Institute for Artificial Intelligence",https://www.cs.washington.edu/people/faculty/ali-farhadi/,https://www.linkedin.com/in/ali-farhadi-098430b1,ali@cs.washington.edu
+Sergey Levine,University of Washington,https://www.engr.washington.edu/facresearch/newfaculty/2015/sergey-levine,n/a,vikash@cs.washington.edu
+Noah Smith,University of Washington,https://linguistics.washington.edu/people/noah-smith,n/a,nasmith@cs.washington.edu
+Abhishek Gupta,University of Washington,https://www.cs.washington.edu/people/faculty/abhishek-gupta/,https://www.linkedin.com/in/abhishekunique,abhgupta@cs.washington.edu
+Hannaneh Hajishirzi,University of Washington,https://homes.cs.washington.edu/~hannaneh/,n/a,hannaneh@cs.washington.edu
+Ranjay Krishna,University of Washington,https://www.cs.washington.edu/people/faculty/ranjay-krishna/,n/a,ranjay@cs.washington.edu
+Pang Wei Koh,University of Washington,https://www.cs.washington.edu/people/faculty/pang-wei-koh/,n/a,pangwei@cs.washington.edu
+Ximing Lu,"Department of Computer Science, University of Washington",https://openreview.net/profile?id=~Ximing_Lu1,https://www.linkedin.com/in/ximing-lu-4aa9a51a0,ximinglu@allenai.org
+Weijia Shi,"University of Washington, Seattle",https://weijiashi.notion.site/,https://www.linkedin.com/in/weijia-shi-773768112,swj0419@uw.edu
+Jieyu Zhang,"Department of Computer Science, University of Washington",https://jieyuz2.github.io/,https://www.linkedin.com/in/jieyu-zhang-3baaa8154,jieyuz2@cs.washington.edu
+Mitchell Wortsman,University of Washington,https://mitchellnw.github.io/,n/a,mitchnw@cs.washington.edu
+Yulia Tsvetkov,"Department of Computer Science, University of Washington",https://www.cs.washington.edu/people/faculty/yulia-tsvetkov/,n/a,yuliats@cs.washington.edu
+Qiwen Cui,"Department of Computer Science, University of Washington",https://qwcui.github.io/,https://www.linkedin.com/in/qiwen-cui-284542247,csep546-staff@cs.washington.edu
+Gabriel Ilharco,"Department of Computer Science, University of Washington",https://gabrielilharco.com/,n/a,gamaga@cs.washington.edu
+Jonathan Hayase,University of Washington,https://openreview.net/profile?id=~Jonathan_Hayase2,https://www.linkedin.com/in/jonathan-hayase-5ab849128,n/a
+Andrew Wilson,New York University,https://cims.nyu.edu/~andrewgw/,https://www.linkedin.com/in/andrew-gordon-wilson-46645b177,andrewgw@cims.nyu.edu
+Micah Goldblum,New York University,https://www.ee.columbia.edu/content/micah-goldblum,https://www.linkedin.com/in/micah-goldblum-9427b817b,%67%6f%6c%64%62%6c%75%6d@%6e%79%75.%65%64%75
+Yann LeCun,New York University,https://engineering.nyu.edu/faculty/yann-lecun,n/a,ha2285@nyu.edu
+Kyunghyun Cho,"New York University, Genentech",https://kyunghyuncho.me/contact/,n/a,kyunghyun.cho@nyu.edu
+Rajesh Ranganath,New York University,https://cims.nyu.edu/~rajeshr/,n/a,rajeshr@cims.nyu.edu
+Tim G. J. Rudner,New York University,https://timrudner.com/,https://uk.linkedin.com/in/timrudner,tim.rudner@nyu.edu
+Eric Vanden-Eijnden,New York University,https://wp.nyu.edu/courantinstituteofmathematicalsciences-eve2/,n/a,eve2@cims.nyu.edu
+Alexandre Araujo,New York University,https://rocketreach.co/alexandre-araujo-email_1375826,https://www.linkedin.com/in/alexandrearaujo2,sg175@nyu.edu
+Nate Gruver,New York University,https://ngruver.github.io/,https://www.linkedin.com/in/nate-gruver-bb0869117,nvg7279@nyu.edu
+Julia Kempe,New York University,https://cims.nyu.edu/~kempe/,n/a,lastname@nyu.edu
+Lerrel Pinto,New York University,https://cims.nyu.edu/ai/faculty/?type=11&taxonomy=Robotics+AI&unit=Courant+Institute,https://www.linkedin.com/in/lerrel,lerrel.pinto@nyu.edu
+Denny Wu,New York University & Flatiron Institute,https://dennywu1.github.io/,n/a,jroznfgre@pbhenag.alh.rqh
+Eero Simoncelli,FlatIron Institute / New York University,https://www.cns.nyu.edu/~eero/,n/a,eero.simoncelli@nyu.edu
+Shikai Qiu,New York University,https://shikaiqiu.github.io/,https://www.linkedin.com/in/shikai-qiu1999,%73%71%32%31%32%39@%6e%79%75.%65%64%75
+Christopher Musco,New York University,https://engineering.nyu.edu/faculty/christopher-musco,n/a,cmusco@nyu.edu
+Qi Lei,New York University,https://cecilialeiqi.github.io/,n/a,ql518@nyu.edu
+Chinmay Hegde,New York University,https://engineering.nyu.edu/faculty/chinmay-hegde,n/a,chinmay.h@nyu.edu
+Sanyam Kapoor,New York University,https://cds.nyu.edu/team/sanyam-kapoor/,https://www.linkedin.com/in/sanyamkapoor,aditya.rawal@uber.com
+Yi Fang,New York University,https://engineering.nyu.edu/faculty/yi-fang,n/a,yf23@nyu.edu
+Pavel Izmailov,New York University,https://cims.nyu.edu/ai/faculty/,https://www.linkedin.com/in/pavel-izmailov-8b012b258,yindalon.aphinyanaphongs@nyulangone.org
+Elias Bareinboim,Columbia University,https://www.engineering.columbia.edu/faculty-staff/directory/elias-bareinboim,n/a,eb@cs.columbia.edu
+Christian Kroer,Columbia University,http://www.columbia.edu/~ck2945/,https://www.linkedin.com/in/chrkroer,n/a
+Carl Vondrick,Columbia University,https://www.engineering.columbia.edu/faculty-staff/directory/carl-vondrick,n/a,vondrick@cs.columbia.edu
+David Blei,Columbia University,https://www.engineering.columbia.edu/faculty-staff/directory/david-m-blei,n/a,david.blei@columbia.edu
+Long Chen,Columbia University,https://openreview.net/profile?id=~Long_Chen8,n/a,yh3330@columbia.edu
+Junfeng Yang,Columbia University,https://www.engineering.columbia.edu/faculty-staff/directory/junfeng-yang,n/a,junfeng.yang@columbia.edu
+Micah Goldblum,Columbia University,https://www.ee.columbia.edu/content/micah-goldblum,https://www.linkedin.com/in/micah-goldblum-9427b817b,micah.g@columbia.edu
+John Cunningham,Columbia University,https://stat.columbia.edu/department-directory/administration/name/john-cunningham/,n/a,jpc2181@columbia.edu
+Chengzhi Mao,Columbia University,http://www.cs.columbia.edu/~mcz/,https://www.linkedin.com/in/chengzhi-mao-973a5718a,available@equi4robust.cs.columbia.edu
+Yongchan Kwon,Columbia University,https://stat.columbia.edu/department-directory/faculty/name/yongchan-kwon/,n/a,n/a
+Daniel Hsu,Columbia University,https://www.engineering.columbia.edu/faculty-staff/directory/daniel-hsu,https://www.linkedin.com/in/djhsu,djhsu@cs.columbia.edu
+Krzysztof Choromanski,Google DeepMind & Columbia University,https://ieor.columbia.edu/content/krzysztof-choromanski,https://www.linkedin.com/in/krzysztof-choromanski-288bb012,n/a
+Zhun Deng,Columbia University,https://www.zhundeng.org/,https://www.linkedin.com/in/zhun-deng-a28297105,zd.recruit@gmail.com
+Samir Yitzhak Gadre,Columbia University,https://openreview.net/profile?id=~Samir_Yitzhak_Gadre1,n/a,code@www.datacomp.ai
+Henry Lam,Columbia University,https://www.engineering.columbia.edu/faculty-staff/directory/henry-lam,n/a,khl2114@columbia.edu
+Assaf Zeevi,Columbia University,https://business.columbia.edu/faculty/people/assaf-zeevi,n/a,asaaf@gsb.columbia.edu
+Amir Feder,Columbia University,https://business.columbia.edu/faculty/people/amir-feder,https://www.linkedin.com/in/amir-feder-b65b7035,dsi-fellows@columbia.edu
+Richard Zemel,Columbia University,https://www.engineering.columbia.edu/faculty-staff/directory/richard-zemel,n/a,
+Shih-Fu Chang,Columbia University,https://www.engineering.columbia.edu/faculty-staff/directory/dean-shih-fu-chang,https://www.linkedin.com/in/shih-fu-chang,shih.fu.chang@columbia.edu
+Suman Jana,Columbia University,https://www.engineering.columbia.edu/faculty-staff/directory/suman-jana,https://www.linkedin.com/in/sumanjana,suman.jana@columbia.edu
+Wen Sun,Cornell University,https://wensun.github.io/,n/a,ws455@cornell.edu
+Christopher De Sa,Cornell University,https://www.cs.cornell.edu/~cdesa/,n/a,esa@cs.cor
+Nathan Kallus,Cornell University,https://stat.cornell.edu/people/field-faculty/nathan-kallus,n/a,kallus@cornell.edu
+Yuanqi Du,Cornell University,https://yuanqidu.github.io/,https://www.linkedin.com/in/yuanqi-du-523968148,yuanqidu@cs.cornell.edu
+Kilian Weinberger,Cornell University,https://www.cs.cornell.edu/~kilian/,n/a,kilian@cornell.edu
+Ayush Sekhari,Cornell University,https://ayush.sekhari.com/,n/a,sekhari@mit.edu
+Bharath Hariharan,Cornell University,http://home.bharathh.info/,n/a,bharathh@cs.cornell.edu
+Masatoshi Uehara,Cornell University,https://www.masatoshiuehara.com/,https://www.linkedin.com/in/masatoshi-uehara-391314196,ab136@gmail.com
+Sanjiban Choudhury,Cornell University,https://sanjibanc.github.io/,https://www.linkedin.com/in/sanjibanc,sanjibanc@cornell.edu
+Carla Gomes,Cornell University,https://www.cs.cornell.edu/gomes/,n/a,gomes@cs.cornell.edu
+Aaron Gokaslan,Cornell University,https://www.cs.cornell.edu/content/gokaslan,https://www.linkedin.com/in/aarongokaslan,web-accessibility@cornell.edu
+Jon Kleinberg,Cornell University,https://www.cs.cornell.edu/home/kleinber/,n/a,web-accessibility@cornell.edu
+Andrew Gordon Wilson,Cornell University,https://people.orie.cornell.edu/andrew/,https://www.linkedin.com/in/andrew-gordon-wilson-46645b177,andrew@cornell.edu
+Xiangyu Chen,Cornell University,https://cxy1997.github.io/,https://www.linkedin.com/in/chen-xiangyu,xiangyuchen@waymo.com
+Yair Schiff,"Department of Computer Science, Cornell University",https://www.cs.cornell.edu/people/phdstudents,https://www.linkedin.com/in/yair-schiff,salman@cs.cornell.edu
+Kevin Ellis,Cornell University,https://www.cs.cornell.edu/~ellisk/,n/a,kellis@cornell.edu
+Cheng Perng Phoo,Cornell University,https://cpphoo.github.io/,https://www.linkedin.com/in/cheng-perng-phoo-76aa03106,chengperng@gmail.com
+Jin Zhou,Cornell University,https://openreview.net/profile?id=~Jin_Peng_Zhou1,https://www.linkedin.com/in/jinzhouwu,salman@cs.cornell.edu
+Alexander Rush,Cornell University,https://rush-nlp.com/,https://www.linkedin.com/in/sasha-rush-a69b6917,arush@cornell.edu
+Alexander Terenin,Cornell University,https://www.engineering.cornell.edu/people/alexander-terenin/,n/a,vza1@cornell.edu
+Sham Kakade,Harvard University & Amazon,https://seas.harvard.edu/person/sham-kakade,n/a,sham@seas.harvard.edu
+Cengiz Pehlevan,Harvard University,https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan,n/a,cpehlevan@seas.harvard.edu
+Blake Bordelon,Harvard University,https://pehlevan.seas.harvard.edu/people/blake-bordelon,n/a,cpehlevan@seas.harvard.edu
+Marinka Zitnik,Harvard University,https://zitniklab.hms.harvard.edu/contact/,https://www.linkedin.com/in/marinkaz,marinka@hms.harvard.edu
+Ariel Procaccia,Harvard University,https://seas.harvard.edu/person/ariel-procaccia,n/a,arielpro@seas.harvard.edu
+Flavio Calmon,Harvard University,https://people.seas.harvard.edu/~flavio/,n/a,fcalmon@fas.harvard.edu
+Na Li,Harvard University,https://seas.harvard.edu/person/na-li,n/a,nali@seas.harvard.edu
+David Parkes,Harvard University,https://datascience.harvard.edu/directory/david-c-parkes/,n/a,datascience@harvard.edu
+Yiling Chen,Harvard University,https://yiling.seas.harvard.edu/,n/a,yiling@seas.harvard.edu
+Boaz Barak,Harvard University,https://www.boazbarak.org/contact/,n/a,cs-dus@seas.harvard.edu
+Suraj Srinivas,Harvard University,https://openreview.net/profile?id=~Suraj_Srinivas1,https://www.linkedin.com/in/suraj-srinivas-1a856264,suraj.srinivas@idiap.ch
+Hidenori Tanaka,"Harvard University, Harvard University",https://cbs.fas.harvard.edu/directory/hidenori-tanaka/,https://www.linkedin.com/in/hidenori-tanaka-64ba08101,hidenori_tanaka@fas.harvard.edu
+Milind Tambe,Harvard University,https://seas.harvard.edu/person/milind-tambe,n/a,tambe@seas.harvard.edu
+Jacob Zavatone-Veth,Harvard University,https://brain.harvard.edu/hbi_connectome/jacob-zavatone-veth/,n/a,jzavatoneveth@g.harvard.edu
+Chirag Agarwal,Harvard University,https://datascience.virginia.edu/people/chirag-agarwal,https://www.linkedin.com/in/chirag-agarwal-0a6a43a1,qze3wn@virginia.edu
+Tao Lin,Harvard University,https://seas.harvard.edu/person/tao-lin,n/a,tlin@g.harvard.edu
+Kazuki Irie,Harvard University,https://sites.harvard.edu/kazuki-irie/,n/a,lastname@fas.harvard.edu
+Melanie Weber,Harvard University,https://seas.harvard.edu/person/melanie-weber,n/a,mweber@seas.harvard.edu
+Satyapriya Krishna,Harvard University,https://satyapriyakrishna.com/,https://www.linkedin.com/in/satyapriya-k-50553084,spkrishnaofficial@gmail.com
+Safwan Hossain,Harvard University,https://seas.harvard.edu/person/safwan-hossain,n/a,shossain@fas.harvard.edu
+Nika Haghtalab,"University of California, Berkeley",https://people.eecs.berkeley.edu/~nika/,n/a,nika@berkeley.edu
+Ion Stoica,"University of California, Berkeley",https://people.eecs.berkeley.edu/~istoica/,n/a,istoica@eecs.berkeley.edu
+Jacob Steinhardt,"University of California, Berkeley",https://statistics.berkeley.edu/people/jacob-steinhardt,n/a,jsteinhardt@berkeley.edu
+Ahmed Alaa,"University of California, Berkeley",https://vcresearch.berkeley.edu/faculty/ahmed-alaa,https://www.linkedin.com/in/ahmed-m-alaa-b1007614,amalaa@berkeley.edu
+Anca Dragan,"University of California, Berkeley",https://people.eecs.berkeley.edu/~anca/contact.html,n/a,anca@berkeley.edu
+Jiantao Jiao,"University of California, Berkeley",https://people.eecs.berkeley.edu/~jiantao/,n/a,jiantao@cs.berkeley.edu
+Song Mei,"University of California, Berkeley",https://www.stat.berkeley.edu/~songmei/,n/a,songmei@berkeley.edu
+Javad Lavaei,"University of California, Berkeley",https://lavaei.ieor.berkeley.edu/,n/a,n/a
+Alane Suhr,"University of California, Berkeley",https://www.alanesuhr.com/,n/a,suhr@berkeley.edu
+Somayeh Sojoudi,"University of California, Berkeley",https://me.berkeley.edu/people/somayeh-sojoudi/,n/a,sojoudi@berkeley.edu
+Yifei Zhou,"University of California, Berkeley",https://yifeizhou02.github.io/,https://www.linkedin.com/in/yifei-zhou-57aa9b222,yifei_zhou@berkeley.edu
+Yaodong Yu,"University of California, Berkeley",https://yaodongyu.github.io/,https://www.linkedin.com/in/yaodong-yu-03478a15b,yyu@eecs.berkeley.edu
+Andrew Wagenmaker,"University of California, Berkeley",https://openreview.net/profile?id=~Andrew_Wagenmaker1,n/a,ajwagen@berkeley.edu
+Nived Rajaraman,"University of California, Berkeley",https://nivedr.github.io/,https://www.linkedin.com/in/nivedrajaraman,nived.rajaraman@berkeley.edu
+Seohong Park,"University of California, Berkeley",https://seohong.me/,https://www.linkedin.com/in/seohong-park-0453b9182/en,seohong@berkeley.edu
+Alvin Cheung,"University of California, Berkeley",https://people.eecs.berkeley.edu/~akcheung/,n/a,akcheung@cs.berkeley.edu
+Amir Gholami,"University of California, Berkeley",http://amirgholami.org/,n/a,its@its.berkeley.edu
+Baihe Huang,"University of California, Berkeley",https://openreview.net/profile?id=~Baihe_Huang1,n/a,n/a
+Pratik Patil,"University of California, Berkeley",https://pratikpatil.io/,n/a,n/a
+Banghua Zhu,"University of California, Berkeley",https://openreview.net/profile?id=~Banghua_Zhu1,n/a,%62%61%6e%67%68%75%61@%75%77.%65%64%75
+Quanquan Gu,"University of California, Los Angeles",https://samueli.ucla.edu/people/quanquan-gu/,https://www.linkedin.com/in/quanquan-gu-234a7b21b,qgu@princeton.edu
+Jiafan He,"University of California, Los Angeles",https://sites.google.com/g.ucla.edu/jiafan-he-homepage,https://www.linkedin.com/in/jiafan-he-562524201,jiafanhe19@ucla.edu
+Yu Yang,"University of California, Los Angeles",https://sites.google.com/view/yuyang0901/home,https://www.linkedin.com/in/yuyang0901,g@openai.com
+Ying Nian Wu,"University of California, Los Angeles",https://statistics.ucla.edu/index.php/people1/all-faculty/faculty/,n/a,n/a
+Anji Liu,"University of California, Los Angeles",https://liuanji.github.io/,https://www.linkedin.com/in/anji-liu-7610b7190,liuanji@cs.ucla.edu
+Fergus Imrie,"University of California, Los Angeles",http://fimrie.github.io/,n/a,fergus.imrie@stats.ox.ac.uk
+Ruochen Wang,"University of California, Los Angeles",https://ruocwang.github.io/,https://www.linkedin.com/in/ruochen-wang-1699b1113,ruocwang@g.ucla.edu
+Aditya Grover,"University of California, Los Angeles",https://samueli.ucla.edu/people/aditya-grover/,https://www.linkedin.com/in/aditya-grover,adityag@cs.ucla.edu
+Hritik Bansal,"University of California, Los Angeles (UCLA)",https://openreview.net/profile?id=~Hritik_Bansal2,https://www.linkedin.com/in/hritik-bansal,hbansal@g.ucla.edu
+Yue Wu,"University of California, Los Angeles",http://yuewu.us/,https://www.linkedin.com/in/yue-wu-aa41a21b9,frankwupku
+Nanyun Peng,"University of California, Los Angeles",https://samueli.ucla.edu/people/nanyun-peng/,n/a,violetpeng@cs.ucla.edu
+Guang Cheng,"University of California, Los Angeles",https://faculty.stat.ucla.edu/guangcheng/index.html,https://www.linkedin.com/in/guang-cheng-3b598a208,guangcheng@ucla.edu
+Yiwen Kou,"University of California, Los Angeles",https://openreview.net/profile?id=~Yiwen_Kou1,https://www.linkedin.com/in/yiwen-kou-5a444916b/en,evankou@g.ucla.edu
+Tung Nguyen,"University of California, Los Angeles",https://www.math.ucla.edu/people/visiting/tungdnguyen,https://www.linkedin.com/in/tung-nguyen-40703616b,%74%75%6e%67%6e%64@%63%73.%75%63%6c%61.%65%64%75
+Xiao Luo,"University of California, Los Angeles",https://luoxiao12.github.io/,https://www.linkedin.com/in/xiao-luo-303548214/,
+Liunian Li,"University of California, Los Angeles",https://liunian-harold-li.github.io/,n/a,liunian.harold.li@cs.ucla.edu
+Yining Hong,"University of California, Los Angeles",https://evelinehong.github.io/,n/a,yninghong@gmail.com
+Yihe Deng,"University of California, Los Angeles",https://openreview.net/profile?id=~Yihe_Deng1,https://www.linkedin.com/in/yihe-deng-1895bb250,n/a
+Zixiang Chen,", University of California, Los Angeles",https://sites.google.com/view/zxchen/home,https://www.linkedin.com/in/zixiang-chen-1489b4200,chenzx19@cs.ucla.edu
+Tian Yu Liu,"University of California, Los Angeles",https://www.cs.ucla.edu/~tianyu/,n/a,dblp@dagstuhl.de
+Vaneet Aggarwal,Purdue University,https://engineering.purdue.edu/IE/people/ptProfile?resource_id=119657,n/a,vaneet@purdue.edu
+Murat Kocaoglu,Purdue University,https://www.stat.purdue.edu/people/faculty/mkocaogl.html,n/a,sciencehelp@purdue.edu
+Beatrice Bevilacqua,Purdue University,https://beabevi.github.io/,https://www.linkedin.com/in/beabevi,bbevilac@purdue.edu
+Xiaoqian Wang,Purdue University,https://engineering.purdue.edu/BME/People/ptProfile?resource_id=221122,n/a,joywang@purdue.edu
+Ruqi Zhang,Purdue University,https://www.cs.purdue.edu/people/faculty/ruqiz.html,n/a,ruqiz@purdue.edu
+Guanhong Tao,Purdue University,https://gwinhen.github.io/,https://www.linkedin.com/in/guanhong-tao-7aa63212a,%67%75%61%6e%68%6f%6e%67.%74%61%6f@%75%74%61%68.%65%64%75
+Wei Chen,Purdue University,https://openreview.net/profile?id=~Wei_Chen26,https://www.linkedin.com/in/wei-chen-0793,ahn104@purdue.edu
+Xiangyu Zhang,Purdue University,https://www.cs.purdue.edu/homes/xyzhang/,n/a,xyzhang@cs.purdue.edu
+Steve Hanneke,Purdue University,https://www.cs.purdue.edu/people/faculty/hanneke.html,n/a,hanneke@purdue.edu
+Alexandros Psomas,Purdue University,https://www.cs.purdue.edu/people/faculty/apsomas.html,n/a,apsomas@purdue.edu
+Qiang Qiu,Purdue University,https://engineering.purdue.edu/ECE/People/ptProfile?resource_id=238920,n/a,qqiu@purdue.edu
+Kamyar Azizzadenesheli,Purdue University,https://www.cs.purdue.edu/homes/kamyar/,https://www.linkedin.com/in/kamyar-azizzadenesheli-0624463a,zeldaw@caltech.edu
+Gesualdo Scutari,Purdue University,https://engineering.purdue.edu/IE/people/Faculty/ptProfile?resource_id=126294&group_id=136079,n/a,gscutari@purdue.edu
+Dong-Jun Han,Purdue University,https://openreview.net/profile?id=~Dong-Jun_Han1,n/a,aabdrab@purdue.edu
+Jing Gao,Purdue University,https://engineering.purdue.edu/~jinggao/,n/a, jinggao@purdue.edu
+Yonghan Jung,Purdue University,https://www.cs.purdue.edu/people/graduate-students/jung222.html,n/a,yhansjung@gmail.com
+Faming Liang,Purdue University,https://www.stat.purdue.edu/people/faculty/fmliang.html,n/a,sciencehelp@purdue.edu
+Kaiyuan Zhang,Purdue University,https://kaiyuanzhang.com/,https://www.linkedin.com/in/kaiyuan-zhang,abbas4@purdue.edu
+David Inouye,Purdue University,https://engineering.purdue.edu/ECE/People/ptProfile?resource_id=218058,n/a,dinouye@purdue.edu
+Raymond A. Yeh,Purdue University,https://raymond-yeh.com/,https://www.linkedin.com/in/raymondayeh,rayyeh@purdue.edu
+Mingyuan Zhou,University of Texas at Austin,https://mingyuanzhou.github.io/,n/a,mingyuan.zhou@mccombs.utexas.edu
+Nhat Ho,University of Texas at Austin,https://nhatptnk8912.github.io/,n/a,minhnhat@utexas.edu
+Zhangyang “Atlas” Wang,University of Texas at Austin,https://www.ece.utexas.edu/people/faculty/atlas-wang,n/a,atlaswang@utexas.edu
+"Zhangyang ""Atlas"" Wang",University of Texas at Austin,https://www.ece.utexas.edu/people/faculty/atlas-wang,n/a,atlaswang@utexas.edu
+Peihao Wang,University of Texas at Austin,https://peihaowang.github.io/,n/a,peihaowang@utexas.edu
+Zhenyu Zhang,University of Texas at Austin,https://rocketreach.co/zhenyu-zhang-email_705247493,https://www.linkedin.com/in/zhenyu-allen-zhang-a9b1391a3,zhenyu.zhang@utexas.edu
+Peter Stone,"The University of Texas at Austin, Sony AI",https://www.cs.utexas.edu/~pstone/,https://www.linkedin.com/in/peter-stone-b0a2,pstone@cs.utexas.edu
+Sanjay Shakkottai,University of Texas at Austin,https://sites.google.com/view/sanjay-shakkottai/home,n/a,sanjay.shakkottai@utexas.edu
+Kristen Grauman,University of Texas at Austin and FAIR,https://www.cs.utexas.edu/~grauman/,n/a,grauman@cs.utexas.edu
+Khai Nguyen,University of Texas at Austin,https://stat.utexas.edu/directory/khai-nguyen,n/a,khainb@utexas.edu
+Ajay Jaiswal,University of Texas at Austin,https://ischool.utexas.edu/profiles/ajay-jaiswal,n/a,ajayjaiswal@utexas.edu
+Qixing Huang,The University of Texas at Austin,https://www.cs.utexas.edu/~huangqx/,n/a,huangqx@cs.utexas.edu
+Pradeep K Ravikumar,University of Texas at Austin,https://utdirect.utexas.edu/apps/student/coursedocs/nlogon/download/1042583/,n/a,pradeepr@cs.utexas.edu
+Amy Zhang,University of Texas at Austin,https://cockrell.utexas.edu/faculty-directory/alphabetical/z,n/a,renato@utexas.edu
+Huy Nguyen,The University of Texas at Austin,https://stat.utexas.edu/directory/huy-nguyen,n/a,huynm@utexas.edu
+Ruisi Cai,The University of Texas at Austin,https://cairuisi.github.io/,https://www.linkedin.com/in/ruisi-cai-738343255,ruisi.cai@utexas.edu
+Konstantinos Stavropoulos,University of Texas at Austin,https://www.kstavrop.com/,https://www.linkedin.com/in/konstantinos-stavropoulos-8529b9177,n/a
+Vasilis Kontonis,University of Texas at Austin,https://vkonton.github.io/,n/a,vasilis@cs.utexas.edu
+Tianlong Chen,University of Texas at Austin,https://tianlong-chen.github.io/,https://www.linkedin.com/in/tianlong-chen-783862167,tianlong@cs.unc.edu
+Swarat Chaudhuri,The University of Texas at Austin,https://www.cs.utexas.edu/people/faculty-researchers/swarat-chaudhuri,n/a,swarat@cs.utexas.edu
+Osbert Bastani,University of Pennsylvania,https://directory.seas.upenn.edu/osbert-bastani/,n/a,obastani@seas.upenn.edu
+Hamed Hassani,University of Pennsylvania,https://online.seas.upenn.edu/team/hamed-hassani/,n/a,webmaster@seas.upenn.edu
+Jacob Gardner,University of Pennsylvania,https://jacobrgardner.github.io/,https://www.linkedin.com/in/jacob-gardner-57b695155,jacobrg@seas.upenn.edu
+Aaron Roth,University of Pennsylvania,https://www.cis.upenn.edu/~aaroth/,n/a,aaroth@cis.upenn.edu
+Rene Vidal,University of Pennsylvania and Amazon,http://vision.jhu.edu/rvidal.html,https://www.linkedin.com/in/rene-vidal-74844928,vidalr@upenn.edu
+Edgar Dobriban,University of Pennsylvania,https://statistics.wharton.upenn.edu/profile/dobriban/,https://www.linkedin.com/in/edgar-dobriban,dobriban@wharton.upenn.edu
+Dinesh Jayaraman,University of Pennsylvania,https://www.seas.upenn.edu/~dineshj/,https://www.linkedin.com/in/dinesh-jayaraman-44b31539,dineshj-at-seas-dot-upenn-dot-edu
+Xinmeng Huang,University of Pennsylvania,https://amcs.upenn.edu/graduate-students/,https://www.linkedin.com/in/xinmeng-huang-8032221b3,vicenteg@sas.upenn.edu
+Alejandro Ribeiro,University of Pennsylvania,https://alliance.seas.upenn.edu/~aribeiro/wiki/,https://www.linkedin.com/in/alejandro-ribeiro-55a11b11,aribeiro@seas.upenn.edu
+Weijie Su,University of Pennsylvania,https://statistics.wharton.upenn.edu/profile/suw/,n/a,suw@wharton.upenn.edu
+Kostas Daniilidis,University of Pennsylvania,https://www.cis.upenn.edu/~kostas/,n/a,info@grasp.upenn.edu
+Yuxin Chen,University of Pennsylvania,https://yuxinchen2020.github.io/,n/a,yuxinc@wharton.upenn.edu
+Yuting Wei,"The Wharton School, University of Pennsylvania",https://statistics.wharton.upenn.edu/profile/ytwei/,https://www.linkedin.com/in/yuting-wei-32830a7b,ytwei@wharton.upenn.edu
+Eric Wong,University of Pennsylvania,https://riceric22.github.io/,n/a,exwong@cis.upenn.edu
+George J. Pappas,University of Pennsylvania,https://directory.seas.upenn.edu/george-j-pappas/,n/a,pappasg@seas.upenn.edu
+Michael Kearns,University of Pennsylvania,https://www.cis.upenn.edu/~mkearns/,https://www.linkedin.com/in/michael-kearns-0951337,mkearns@cis.upenn.edu
+George Pappas,University of Pennsylvania,https://directory.seas.upenn.edu/george-j-pappas/,n/a,pappasg@seas.upenn.edu
+Kyurae Kim,University of Pennsylvania,https://openreview.net/profile?id=~Kyurae_Kim1,https://www.linkedin.com/in/red-portal,jacobrg@seas.upenn.edu
+Kaiwen Wu,University of Pennsylvania,https://www.seas.upenn.edu/~kaiwenwu/,https://www.linkedin.com/in/kaiwen-wu-801a29160,117@seas.upenn.edu
+Rahul Ramesh,University of Pennsylvania,https://www.grasp.upenn.edu/people/rahul-ramesh/,https://www.linkedin.com/in/rahul13ramesh,info@grasp.upenn.edu
+Zhuoran Yang,Yale University,https://zhuoranyang.github.io/,n/a,%7a%68%75%6f%72%61%6e.%79%61%6e%67@%79%61%6c%65.%65%64%75
+Amin Karbasi,Yale University,https://engineering.yale.edu/research-and-faculty/faculty-directory/amin-karbasi,n/a,amin.karbasi@yale.edu
+Grigoris Velegkas,Yale University,https://gvelegkas.github.io/cv_english_grigoris-22.pdf,n/a,grigoris.velegkas@yale.edu
+Tianhao Wang,Yale University,https://www.ttic.edu/faculty/wang_tianhao/,n/a,contact@ttic.edu
+Rex Ying,Yale University,https://engineering.yale.edu/research-and-faculty/faculty-directory/rex-zhitao-ying,n/a,rex.ying@yale.edu
+Yang Cai,Yale University,http://www.cs.yale.edu/homes/cai/,https://www.linkedin.com/in/yang-cai-35905314,yang.cai@yale.edu
+Weiqiang Zheng,Yale University,https://weiqiang-zheng.com/,n/a,weiqiang.zheng@yale.edu
+Nisheeth K. Vishnoi,Yale University,https://www.cs.yale.edu/homes/vishnoi/,n/a,nisheeth.vishnoi@yale.edu
+Insu Han,Yale University,https://medicine.yale.edu/profile/insu-han/,n/a,insu.han@kaist.ac.kr
+Yifei Min,Yale University,https://iid.yale.edu/people/,https://www.linkedin.com/in/yifei-min-21957254,amin.karbasi@yale.edu
+Andre Wibisono,Yale University,http://www.cs.yale.edu/homes/wibisono/,n/a,andre.wibisono@yale.edu
+ZHITAO YING,Yale University,https://engineering.yale.edu/research-and-faculty/faculty-directory/rex-zhitao-ying,n/a,rex.ying@yale.edu
+Dragomir Radev,Yale University,https://www.cs.yale.edu/homes/radev/,n/a,galja@lml.bas.bg
+Chenyu You,Yale University,https://chenyuyou.me/,https://www.linkedin.com/in/chenyu-you-b07475a4,chenyu.you@stonybrook.edu
+Qianqian Xie,Yale University,https://openreview.net/profile?id=~Qianqian_Xie1,https://www.linkedin.com/in/qianqian-xie-912571238?trk=public_post-text,zhangx767@mail2.sysu.edu.cn
+Argyris Oikonomou,Yale University,https://aroikonomou.github.io/,https://www.linkedin.com/in/argyris,argyris.oikonomou@yale.edu
+Henry Li,Yale University,https://medicine.yale.edu/lab/kluger/people/,n/a,henryli@eng.ucsd.edu
+Chuanhao Li,Yale University,https://www.chuanhao-li.com/,n/a,chuanhao.li.cl2637@yale.edu
+Jialin Chen,Yale University,https://cather-chen.github.io/,https://www.linkedin.com/in/jialin-chen-72441021b,jialin.chen@yale.edu
+Tianyu Liu,Yale University,https://openreview.net/profile?id=~Tianyu_Liu4,n/a,debroue1@gene.com
+Nan Jiang,University of Illinois at Urbana-Champaign,https://siebelschool.illinois.edu/about/people/faculty/nanjiang,n/a,nanjiang@illinois.edu
+Jingrui He,University of Illinois at Urbana-Champaign,http://ischool.illinois.edu/people/jingrui-he,https://www.linkedin.com/in/jingruihe,jingrui@illinois.edu
+Hanghang Tong,University of Illinois at Urbana-Champaign,https://siebelschool.illinois.edu/about/people/faculty/htong,https://www.linkedin.com/in/htong,htong@illinois.edu
+Heng Ji,University of Illinois at Urbana-Champaign,https://siebelschool.illinois.edu/about/people/faculty/hengji,n/a,hengji@illinois.edu
+Alex Schwing,University of Illinois at Urbana-Champaign,https://ece.illinois.edu/about/directory/faculty/aschwing,n/a,nslack@illinois.edu
+Yikun Ban,University of Illinois at Urbana-Champaign,http://ischool.illinois.edu/people/yikun-ban,n/a,yikunb2@illinois.edu
+Jiawei Han,University of Illinois at Urbana-Champaign,https://siebelschool.illinois.edu/about/people/faculty/hanj,n/a,hanj@illinois.edu
+Yifan Sun,University of Illinois at Urbana-Champaign,https://openreview.net/profile?id=~Yifan_Sun8,https://www.linkedin.com/in/yifansun99,yifan50@illinois.edu
+Jian Peng,University of Illinois at Urbana-Champaign,https://jianpeng.web.engr.illinois.edu/,n/a,jianpeng@illinois.edu
+Haohan Wang,University of Illinois at Urbana-Champaign,http://ischool.illinois.edu/people/haohan-wang,https://www.linkedin.com/in/haohanwang,haohanw@illinois.edu
+Yu-Xiong Wang,University of Illinois at Urbana-Champaign,https://siebelschool.illinois.edu/about/people/faculty/yxw,n/a,yxw@illinois.edu
+Bin Hu,University of Illinois at Urbana-Champaign,https://ece.illinois.edu/about/directory/faculty/binhu7,n/a,nslack@illinois.edu
+Sewoong Oh,University of Illinois at Urbana-Champaign,https://openreview.net/profile?id=~Sewoong_Oh3,n/a,swoh@illinois.edu
+Tengyang Xie,University of Illinois at Urbana-Champaign,https://tengyangxie.github.io/,n/a,tx@cs.wisc.edu
+Dan Roth,University of Illinois at Urbana-Champaign,https://siebelschool.illinois.edu/about/people/faculty/danr,n/a,danr@illinois.edu
+Bowen Jin,University of Illinois at Urbana-Champaign,https://peterjin.me/,https://www.linkedin.com/in/bowen-peter-jin,n/a
+Yuchen Yan,University of Illinois at Urbana-Champaign,https://www.aminer.cn/profile/6551c204c2bd4f93db21965f,https://www.linkedin.com/in/yuchen-yan-442711291,n/a
+Chulin Xie,University of Illinois at Urbana-Champaign,https://alphapav.github.io/,https://www.linkedin.com/in/chulin-xie-10b735153,chulinxie@gmail.com
+Mintong Kang,University of Illinois at Urbana-Champaign,https://kangmintong.github.io/,https://www.linkedin.com/in/mintong-kang-548214254,mintong2@illinois.edu
+Kai Yan,University of Illinois at Urbana-Champaign,https://289371298.github.io/289371298.github.io/,https://www.linkedin.com/in/kaizhuo-yan-b91818229,kaiyan3@illinois.edu
+Qing Qu,University of Michigan,https://qingqu.engin.umich.edu/contact/,n/a,n/a
+Jieping Ye,University of Michigan,http://www.yelabs.net/,n/a,jieping@gmail.com
+Yuekai Sun,University of Michigan,https://lsa.umich.edu/stats/people/faculty/YuekaiSun.html,n/a,ysun@umich.edu
+Ambuj Tewari,University of Michigan,https://lsa.umich.edu/stats/people/faculty/tewaria.html,n/a,tewaria@umich.edu
+Robert Dick,University of Michigan,https://ece.engin.umich.edu/personnel/dick-robert,n/a,dickrp@umich.edu
+Samet Oymak,University of Michigan - Ann Arbor,https://sota.engin.umich.edu/,https://www.linkedin.com/in/samet-oymak-0203975a,n/a
+Peng Wang,University of Michigan,https://mcommunity.umich.edu/#profile:WPF,n/a,pengwa@umich.edu
+Ge Zhang,University of Michigan - Ann Arbor,https://openreview.net/profile?id=~Ge_Zhang5,n/a,n/a
+Lei Ying,"University of Michigan, Ann Arbor",https://leiying.engin.umich.edu/contact/,n/a,n/a
+Ekdeep Singh Lubana,University of Michigan,https://ekdeepslubana.github.io/,n/a,ekdeeplubana@fas.harvard.edu
+Chaowei Xiao,"University of Michigan, Ann Arbor",https://openreview.net/profile?id=~Chaowei_Xiao2,n/a,xiaocw@umich.edu
+Puja Trivedi,University of Michigan,http://www-personal.umich.edu/~pujat/,https://www.linkedin.com/in/puja-trivedi-2778a016b,pujat@umich.edu
+Wei Hu,University of Michigan,https://eecs.engin.umich.edu/people/hu-wei/,https://www.linkedin.com/in/wei-hu-6417b293,vvh@umich.edu
+Vinod Raman,University of Michigan,https://lsa.umich.edu/stats/people/phd-students/vkraman.html,n/a,vkraman@umich.edu
+Clay Scott,University of Michigan,https://web.eecs.umich.edu/~cscott/,n/a,n/a
+Xingran Chen,University of Michigan,https://chenxran.github.io/,https://www.linkedin.com/in/chenxran,%63%68%65%6e%78%72%61%6e@%75%6d%69%63%68.%65%64%75
+Laura Balzano,University of Michigan,https://eecs.engin.umich.edu/people/balzano-laura/,n/a,n/a
+Satinder Singh,University of Michigan,https://eecs.engin.umich.edu/people/baveja-satinder-singh/,n/a,wse-logo-blue@2x.png
+Jenna Wiens,University of Michigan,https://eecs.engin.umich.edu/people/wiens-jenna/,n/a,n/a
+Maggie Makar,University of Michigan,https://eecs.engin.umich.edu/people/makar-maggie/,n/a,mmakar@umich.edu
+Bo Li,UIUC,https://stat.illinois.edu/directory/profile/libo,n/a,libo@illinois.edu
+Huan Zhang,UIUC,https://ece.illinois.edu/about/directory/faculty/huanz,n/a,nslack@illinois.edu
+Tong Zhang,UIUC,https://siebelschool.illinois.edu/about/people/faculty/tozhang,n/a,tozhang@illinois.edu
+Jian Peng,UIUC,https://jianpeng.web.engr.illinois.edu/,n/a,jianpeng@illinois.edu
+Humphrey Shi,"Georgia Tech | UIUC, Oregon",https://www.humphreyshi.com/,https://www.linkedin.com/in/humphreyshi,shihonghui3@gmail.com
+Mantas Mazeika,UIUC,https://contactout.com/mantas-mazeika-37894,https://www.linkedin.com/in/mmazeika,a@gmail.com
+Jiaqi Guan,UIUC,https://guanjq.github.io/,https://www.linkedin.com/in/jiaqi-guan-777799101,jiaqi@illinois.edu
+Mintong Kang,UIUC,https://kangmintong.github.io/,https://www.linkedin.com/in/mintong-kang-548214254,mintong2@illinois.edu
+Linyi Li,UIUC,https://openreview.net/profile?id=~Linyi_Li1,https://ca.linkedin.com/in/linyil/en,linyi2@illinois.edu
+Daniel Vial,UT Austin / UIUC,https://www.ece.utexas.edu/people/researchers/daniel-vial,https://www.linkedin.com/in/danielvial,dvial@utexas.edu
+Tianxin Wei,UIUC      Amazon,http://ischool.illinois.edu/people/tianxin-wei,https://www.linkedin.com/in/tianxin-wei-7063a2180,twei10@illinois.edu
+Liangyan Gui,UIUC,https://siebelschool.illinois.edu/about/people/faculty/lgui,n/a,lgui@illinois.edu
+Fang Li,UIUC,https://ece.illinois.edu/about/directory/grad-students/fangli3,https://www.linkedin.com/in/fang-li-8ab696223,nslack@illinois.edu
+Ge Liu,UIUC,https://siebelschool.illinois.edu/about/people/faculty/geliu,n/a,geliu@illinois.edu
+Hao Zhang,UIUC,https://math.illinois.edu/directory/profile/hzhang06,n/a,hzhang06@illinois.edu
+R Srikant,UIUC,https://ece.illinois.edu/about/directory/faculty/rsrikant,n/a,nslack@illinois.edu
+Zidi Xiong,UIUC,https://openreview.net/profile?id=~Zidi_Xiong2,https://www.linkedin.com/in/zidi-xiong-70209b1a3,zidixiong@g.harvard.edu
+Jiahui Yu,UIUC,https://beckman.illinois.edu/news/article/2017/12/01/1cbf718b-bf25-4370-9ebf-4dfbb5be09fb,https://www.linkedin.com/in/jhyuxm,communications@beckman.illinois.edu
+Deng Cai,UIUC,http://hanj.cs.illinois.edu/projs/biobdi.htm,n/a,dengcai@cad.zju.edu.cn
+Yuan Zhou,UIUC,https://yuanz.web.illinois.edu/,n/a,kaizkaiz@illinois.edu
