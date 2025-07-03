@@ -1,0 +1,11 @@
+# CSV files
+contacts.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/

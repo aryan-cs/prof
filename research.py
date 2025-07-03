@@ -103,7 +103,7 @@ class Conference:
         affiliations = dict(author_data)
 
         papers = [
-            (title, [(name, affiliations.get(name, "N/A")) for name, _ in authors])
+            (title, [(name, affiliations.get(name, "n/a")) for name, _ in authors])
             for title, authors in paper_data
         ]
 
@@ -180,30 +180,40 @@ async def scrape_mode(args):
 
 # --- Analysis Function ---
 
-def show_leaderboards(df, length):
-    print("\n" + "="*55 + "\n")
+def show_leaderboards(df, length, which='all'):
+    school_keywords = ['university', 'college', 'school', 'institute', 'polytechnic', 'eth', 'epfl', 'uc berkeley', 'mit', 'kaist', 'uiuc', 'ucla', 'cmu', 'politecnico di milano', 'uc san diego', 'universität']
+    if which in ['all', 'groups']:
+        print("\n" + "="*55 + "\n")
+        print(f"--- Top {length} Publishing Groups ---")
+        top_affiliations = df.dropna(subset=['Affiliation'])['Affiliation'].value_counts().head(length)
+        for i, (item, count) in enumerate(top_affiliations.items(), 1):
+            print(f"{i}. {item}: {count}")
     
-    print(f"--- Top {length} Publishing Groups ---")
-    top_affiliations = df.dropna(subset=['Affiliation'])['Affiliation'].value_counts().head(length)
-    for i, (item, count) in enumerate(top_affiliations.items(), 1):
-        print(f"{i}. {item}: {count}")
-    
-    print("\n" + "="*55 + "\n")
-    
-    print(f"--- Top {length} Institutions ---")
-    school_keywords = ['university', 'college', 'school', 'institute', 'polytechnic', 'eth', 'epfl']
-    school_regex = '|'.join(school_keywords)
-    schools_df = df[df['Affiliation'].str.contains(school_regex, case=False, na=False)]
-    top_schools = schools_df['Affiliation'].value_counts().head(length)
-    for i, (item, count) in enumerate(top_schools.items(), 1):
-        print(f"{i}. {item}: {count}")
-        
-    print("\n" + "="*55 + "\n")
+    if which in ['all', 'schools']:
+        print("\n" + "="*55 + "\n")
+        print(f"--- Top {length} Institutions ---")
+        school_regex = '|'.join(school_keywords)
+        schools_df = df[df['Affiliation'].str.contains(school_regex, case=False, na=False)]
+        top_schools = schools_df['Affiliation'].value_counts().head(length)
+        for i, (item, count) in enumerate(top_schools.items(), 1):
+            print(f"{i}. {item}: {count}")
 
-    print(f"--- Top {length} Most Frequent Authors ---")
-    top_authors = df['Author'].value_counts().head(length)
-    for i, (item, count) in enumerate(top_authors.items(), 1):
-        print(f"{i}. {item}: {count}")
+    if which in ['all', 'companies']:
+        print("\n" + "="*55 + "\n")
+        print(f"--- Top {length} Companies ---")
+        affiliations = df.dropna(subset=['Affiliation'])
+        school_regex = '|'.join(school_keywords)
+        companies_df = affiliations[~affiliations['Affiliation'].str.contains(school_regex, case=False, na=False)]
+        top_companies = companies_df['Affiliation'].value_counts().head(length)
+        for i, (item, count) in enumerate(top_companies.items(), 1):
+            print(f"{i}. {item}: {count}")
+        
+    if which in ['all', 'authors']:
+        print("\n" + "="*55 + "\n")
+        print(f"--- Top {length} Most Frequent Authors ---")
+        top_authors = df['Author'].value_counts().head(length)
+        for i, (item, count) in enumerate(top_authors.items(), 1):
+            print(f"{i}. {item}: {count}")
     
     print("\n" + "="*55 + "\n")
 
@@ -239,15 +249,15 @@ async def get_contacts(authors_with_affiliations):
                 )
                 search_results = list(search_results)
 
-                personal_site = search_results[0] if search_results else 'N/A'
-                print(f"  Website: {personal_site if personal_site else 'N/A'}")
+                personal_site = search_results[0] if search_results else 'n/a'
+                print(f"  Website: {personal_site if personal_site else 'n/a'}")
                 
                 linkedin_results = [r for r in search_results if "linkedin.com/in" in r]
-                linkedin_url = linkedin_results[0] if linkedin_results else 'N/A'
+                linkedin_url = linkedin_results[0] if linkedin_results else 'n/a'
                 print(f"  LinkedIn: {linkedin_url}")
 
-                email = 'N/A'
-                if personal_site and personal_site != 'N/A':
+                email = 'n/a'
+                if personal_site and personal_site != 'n/a':
                     try:
                         # Use the session to get the personal site
                         async with session.get(personal_site, timeout=10) as response:
@@ -331,18 +341,16 @@ async def analyze_mode(args):
                     if not arg:
                         print("Please specify an institution for the /from command.")
                         continue
-                    # Remove quotes if present
                     institution = arg.strip('"\'')
                     show_authors_from(df, institution, leaderboard_length)
                 elif cmd == '/getcontacts':
                     parts = arg.split()
                     save_to_csv = False
-                    filename = "contacts.csv" # Default filename
+                    filename = "contacts.csv"
 
                     if '-save' in parts:
                         save_to_csv = True
                         save_index = parts.index('-save')
-                        # Check if a filename is provided after -save
                         if save_index + 1 < len(parts) and not parts[save_index + 1].startswith('/'):
                             filename = parts.pop(save_index + 1)
                         parts.pop(save_index)
@@ -350,7 +358,7 @@ async def analyze_mode(args):
                     arg_str = " ".join(parts)
                     
                     try:
-                        # Parsing k and institution from the remaining parts
+
                         split_args = arg_str.split(maxsplit=1)
                         k = int(split_args[0])
                         institution = split_args[1].strip('"\'') if len(split_args) > 1 else None
@@ -366,7 +374,6 @@ async def analyze_mode(args):
                     top_authors_series = authors_df['Author'].value_counts().head(k)
                     authors_info = []
                     for author_name in top_authors_series.index:
-                        # Find the most common affiliation for this author in the filtered df
                         author_affiliations = authors_df[authors_df['Author'] == author_name]['Affiliation']
                         most_common_affiliation = author_affiliations.dropna().mode()
                         if not most_common_affiliation.empty:
@@ -384,10 +391,13 @@ async def analyze_mode(args):
 
 
                 elif cmd == '/show':
-                    show_leaderboards(df, leaderboard_length)
+                    if arg and arg in ['groups', 'schools', 'authors', 'companies']:
+                        show_leaderboards(df, leaderboard_length, which=arg)
+                    else:
+                        show_leaderboards(df, leaderboard_length)
                 elif cmd == '/help':
                     print("\nAvailable commands:")
-                    print("  /show                  - Display all top leaderboards.")
+                    print("  /show [groups|schools|authors|companies] - Display all or specific top leaderboards.")
                     print("  /top <number>          - Set the number of items in leaderboards.")
                     print("  /from \"<institution>\"  - Show top authors from an institution.")
                     print("  /getcontacts <k> [\"institution\"] [-save [filename.csv]] - Scrape contact info for top k authors and optionally save to csv.")
@@ -408,8 +418,6 @@ async def analyze_mode(args):
         except Exception as e:
             print(f"An error occurred: {e}")
 
-
-# --- Main Execution ---
 
 async def main():
     parser = argparse.ArgumentParser(
