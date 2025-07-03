@@ -222,6 +222,7 @@ def show_authors_from(df, institution, length):
 
 async def get_contacts(authors_with_affiliations):
     print("\n#" + "-" * 50 + "#")
+    contacts_data = []
     async with aiohttp.ClientSession() as session:
         for i, (author, affiliation) in enumerate(authors_with_affiliations):
             if i > 0:
@@ -229,7 +230,7 @@ async def get_contacts(authors_with_affiliations):
                 # print(f"\nWaiting for {delay} seconds to avoid rate-limiting...")
                 # await asyncio.sleep(delay)
 
-            print(f"\n[{i}] {author}")
+            print(f"\n[{i + 1}] {author}")
             query = f'{author} {affiliation or ""} contact information'
             try:
                 loop = asyncio.get_running_loop()
@@ -238,14 +239,15 @@ async def get_contacts(authors_with_affiliations):
                 )
                 search_results = list(search_results)
 
-                personal_site = search_results[0] if search_results else None
+                personal_site = search_results[0] if search_results else 'N/A'
                 print(f"  Website: {personal_site if personal_site else 'N/A'}")
                 
                 linkedin_results = [r for r in search_results if "linkedin.com/in" in r]
-                print(f"  LinkedIn: {linkedin_results[0] if linkedin_results else 'N/A'}")
+                linkedin_url = linkedin_results[0] if linkedin_results else 'N/A'
+                print(f"  LinkedIn: {linkedin_url}")
 
                 email = 'N/A'
-                if personal_site:
+                if personal_site and personal_site != 'N/A':
                     try:
                         # Use the session to get the personal site
                         async with session.get(personal_site, timeout=10) as response:
@@ -271,12 +273,27 @@ async def get_contacts(authors_with_affiliations):
                         print(f"    Could not scrape email from {personal_site}: {e}")
 
                 print(f"  Email: {email.lower()}")
+                contacts_data.append({
+                    "Author": author,
+                    "Affiliation": affiliation,
+                    "Website": personal_site,
+                    "LinkedIn": linkedin_url,
+                    "Email": email.lower()
+                })
 
             except Exception as e:
                 print(f"Could not fetch contact info for {author}: {e}")
+                contacts_data.append({
+                    "Author": author,
+                    "Affiliation": affiliation,
+                    "Website": "Error",
+                    "LinkedIn": "Error",
+                    "Email": "Error"
+                })
 
-            print("\n#" + "-" * 50 + "#")
+            print("#" + "-" * 50 + "#")
         print()
+        return contacts_data
 
 async def analyze_mode(args):
     file_path = args.output
@@ -318,12 +335,27 @@ async def analyze_mode(args):
                     institution = arg.strip('"\'')
                     show_authors_from(df, institution, leaderboard_length)
                 elif cmd == '/getcontacts':
-                    parts = arg.split(maxsplit=1)
+                    parts = arg.split()
+                    save_to_csv = False
+                    filename = "contacts.csv" # Default filename
+
+                    if '-save' in parts:
+                        save_to_csv = True
+                        save_index = parts.index('-save')
+                        # Check if a filename is provided after -save
+                        if save_index + 1 < len(parts) and not parts[save_index + 1].startswith('/'):
+                            filename = parts.pop(save_index + 1)
+                        parts.pop(save_index)
+                    
+                    arg_str = " ".join(parts)
+                    
                     try:
-                        k = int(parts[0])
-                        institution = parts[1].strip('"\'') if len(parts) > 1 else None
+                        # Parsing k and institution from the remaining parts
+                        split_args = arg_str.split(maxsplit=1)
+                        k = int(split_args[0])
+                        institution = split_args[1].strip('"\'') if len(split_args) > 1 else None
                     except (ValueError, IndexError):
-                        print("Invalid format. Use: /getcontacts <k> [\"institution\"]")
+                        print("Invalid format. Use: /getcontacts <k> [\"institution\"] [-save [filename.csv]]")
                         continue
 
                     if institution:
@@ -343,7 +375,13 @@ async def analyze_mode(args):
                             affiliation = None
                         authors_info.append((author_name, affiliation))
 
-                    await get_contacts(authors_info)
+                    contacts_list = await get_contacts(authors_info)
+
+                    if save_to_csv and contacts_list:
+                        contacts_df = pd.DataFrame(contacts_list)
+                        contacts_df.to_csv(filename, index=False)
+                        print(f"Contact information saved to {filename}")
+
 
                 elif cmd == '/show':
                     show_leaderboards(df, leaderboard_length)
@@ -352,7 +390,7 @@ async def analyze_mode(args):
                     print("  /show                  - Display all top leaderboards.")
                     print("  /top <number>          - Set the number of items in leaderboards.")
                     print("  /from \"<institution>\"  - Show top authors from an institution.")
-                    print("  /getcontacts <k> [\"institution\"] - Scrape contact info for top k authors.")
+                    print("  /getcontacts <k> [\"institution\"] [-save [filename.csv]] - Scrape contact info for top k authors and optionally save to csv.")
                     print("  /clear                 - Clear the terminal screen.")
                     print("  /exit                  - Exit the interactive analysis tool.")
                 elif cmd == '/exit':
