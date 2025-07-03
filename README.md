@@ -1,6 +1,8 @@
 # prof
 
-This tool is a Python-based command-line application for scraping and analyzing research papers from NeurIPS, ICML, and ICLR. It allows users to gather paper metadata (titles, authors, affiliations) and perform interactive analysis on the collected data. The purpose of this tool is to streamline the process of acquiring research opportunities for students.
+This tool is a Python-based command-line application for scraping and analyzing research papers from NeurIPS, ICML, and ICLR. It allows users to gather paper metadata (titles, authors, affiliations) and perform interactive analysis on the collected data. The purpose of this tool is to streamline the process of acquiring research opportunities for students interested in machine learning.  
+
+The repository comes with papers from 2022-2024 pre-loaded, but earlier years can be scraped.
 
 ## Setup and Installation
 

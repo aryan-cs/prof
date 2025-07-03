@@ -220,17 +220,17 @@ def show_authors_from(df, institution, length):
     print("\n" + "="*55 + "\n")
 
 
-async def get_contacts(authors):
-    print("\n--- Contact Information ---")
+async def get_contacts(authors_with_affiliations):
+    print("\n#" + "-" * 50 + "#")
     async with aiohttp.ClientSession() as session:
-        for i, author in enumerate(authors):
+        for i, (author, affiliation) in enumerate(authors_with_affiliations):
             if i > 0:
                 delay = 5  # 5-second delay
-                print(f"\nWaiting for {delay} seconds to avoid rate-limiting...")
+                # print(f"\nWaiting for {delay} seconds to avoid rate-limiting...")
                 # await asyncio.sleep(delay)
 
-            print(f"\nScraping contacts for: {author}")
-            query = f'{author} contact information'
+            print(f"\n[{i}] {author}")
+            query = f'{author} {affiliation or ""} contact information'
             try:
                 loop = asyncio.get_running_loop()
                 search_results = await loop.run_in_executor(
@@ -274,6 +274,9 @@ async def get_contacts(authors):
 
             except Exception as e:
                 print(f"Could not fetch contact info for {author}: {e}")
+
+            print("\n#" + "-" * 50 + "#")
+        print()
 
 async def analyze_mode(args):
     file_path = args.output
@@ -328,8 +331,19 @@ async def analyze_mode(args):
                     else:
                         authors_df = df
                     
-                    top_authors = authors_df['Author'].value_counts().head(k).index.tolist()
-                    await get_contacts(top_authors)
+                    top_authors_series = authors_df['Author'].value_counts().head(k)
+                    authors_info = []
+                    for author_name in top_authors_series.index:
+                        # Find the most common affiliation for this author in the filtered df
+                        author_affiliations = authors_df[authors_df['Author'] == author_name]['Affiliation']
+                        most_common_affiliation = author_affiliations.dropna().mode()
+                        if not most_common_affiliation.empty:
+                            affiliation = most_common_affiliation[0]
+                        else:
+                            affiliation = None
+                        authors_info.append((author_name, affiliation))
+
+                    await get_contacts(authors_info)
 
                 elif cmd == '/show':
                     show_leaderboards(df, leaderboard_length)
