@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import argparse
 import asyncio
 import functools
@@ -236,7 +234,6 @@ async def get_contacts(authors_with_affiliations):
     async with aiohttp.ClientSession() as session:
         for i, (author, affiliation) in enumerate(authors_with_affiliations):
             if i > 0:
-                # Add a delay to be respectful to servers and avoid rate-limiting.
                 await asyncio.sleep(2)
 
             print(f"\n[{i + 1}] {author}")
@@ -253,7 +250,6 @@ async def get_contacts(authors_with_affiliations):
                 scholar_url = 'n/a'
                 email = 'n/a'
 
-                # Look for Google Scholar URL
                 scholar_query = f'{author} {affiliation or ""} google scholar'
                 try:
                     scholar_search_results = await loop.run_in_executor(
@@ -264,7 +260,7 @@ async def get_contacts(authors_with_affiliations):
                             scholar_url = r
                             break
                 except Exception:
-                    pass # Ignore errors for scholar search
+                    pass
 
 
                 linkedin_results = [r for r in search_results if "linkedin.com/in" in r]
@@ -284,16 +280,13 @@ async def get_contacts(authors_with_affiliations):
                                 text = await response.text()
                                 soup = bs4.BeautifulSoup(text, 'html.parser')
 
-                                # 1. Look for mailto links (high confidence)
                                 mailto_links = soup.select('a[href^="mailto:"]')
                                 if mailto_links:
                                     email = mailto_links[0]['href'][7:].split('?')[0]
                                     break 
 
-                                # 2. Look for email patterns in text
                                 email_pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
                                 
-                                # De-obfuscate common patterns from the entire HTML
                                 deobfuscated_html = text.lower()
                                 deobfuscated_html = deobfuscated_html.replace(' [at] ', '@').replace(' [dot] ', '.')
                                 deobfuscated_html = deobfuscated_html.replace('(at)', '@').replace('(dot)', '.')
@@ -305,17 +298,14 @@ async def get_contacts(authors_with_affiliations):
                                 found_emails = re.findall(email_pattern, deobfuscated_html)
                                 
                                 if found_emails:
-                                    # Prioritize emails containing the author's last name
                                     last_name = author.split(' ')[-1].lower()
                                     preferred_emails = [e for e in found_emails if last_name in e]
                                     if preferred_emails:
                                         email = preferred_emails[0]
                                     else:
-                                        # Fallback to the first email found
                                         email = found_emails[0]
                                     
                     except Exception as e:
-                        # Suppress errors for individual page fetches to continue the loop
                         pass
                 
                 print(f"  Website: {personal_site}")
@@ -469,11 +459,8 @@ async def analyze_mode(args):
                     search_term = arg.strip('"\'')
 
                     if '@' in search_term:
-                        # Search by email
                         email_to_find = search_term.lower()
                         try:
-                            # Assuming the default contacts file name.
-                            # A more robust implementation might track the last saved file.
                             contacts_df = pd.read_csv("contacts.csv")
                             contact_row = contacts_df[contacts_df['Email'].str.lower() == email_to_find]
 
@@ -497,7 +484,6 @@ async def analyze_mode(args):
                             print("Please run /getcontacts with the -save flag first.")
                             continue
                     else:
-                        # Search by name
                         author_name = search_term
                         author_data = df[df['Author'].str.lower() == author_name.lower()]
                         if author_data.empty:
@@ -507,10 +493,8 @@ async def analyze_mode(args):
                         most_common_affiliation = author_data['Affiliation'].dropna().mode()
                         affiliation = most_common_affiliation[0] if not most_common_affiliation.empty else None
                         
-                        # print(f"\n--- Scraping contact information for {author_name} ---")
                         await get_contacts([(author_name, affiliation)])
 
-                    # Display papers by the author
                     # print("\n--- Papers by this Author ---")
                     author_papers = df[df['Author'].str.lower() == author_name.lower()]
                     if author_papers.empty:
@@ -528,7 +512,6 @@ async def analyze_mode(args):
 
                     keyword = arg.strip('"\'')
                     
-                    # Find papers with the keyword in the title
                     matching_papers_df = df[df['Title'].str.contains(keyword, case=False, na=False)]
 
                     if matching_papers_df.empty:
@@ -537,13 +520,11 @@ async def analyze_mode(args):
 
                     print(f"\n--- Papers containing '{keyword}' ---")
                     
-                    # Group by paper to list authors together
                     grouped_by_paper = matching_papers_df.groupby(['Conference', 'Year', 'Title'])['Author'].apply(list).reset_index()
 
                     for _, paper in grouped_by_paper.iterrows():
                         print(f"\nTitle: {paper['Title']}")
                         print(f"  Conference: {paper['Conference']} ({paper['Year']})")
-                        # The authors are in a list
                         authors_str = ", ".join(paper['Author'])
                         print(f"  Authors: {authors_str}")
                         
@@ -552,15 +533,10 @@ async def analyze_mode(args):
                 elif cmd == '/getcontacts':
                     
                     arg_str = arg
-                    
-                    # Handle flags
                     save_to_csv = '-save' in arg_str
                     send_email_flag = '--send-email' in arg_str
-                    
-                    # Default filename
                     filename = "contacts.csv"
 
-                    # Regex to find k, institutions, and filename
                     k_match = re.match(r'^\s*(\d+)', arg_str)
                     if not k_match:
                         print("Invalid format. Use: /getcontacts <k> [\"institution1\"] [\"institution2\"]... [-save [filename.csv]] [--send-email]")
@@ -576,7 +552,6 @@ async def analyze_mode(args):
 
                     authors_info = []
                     if institutions:
-                        # Get top k from each institution
                         for institution in institutions:
                             # print(f"\n--- Getting top {k} authors from {institution} ---")
                             inst_df = df[df['Affiliation'].str.contains(institution, case=False, na=False)]
@@ -594,7 +569,6 @@ async def analyze_mode(args):
                                     affiliation = institution
                                 authors_info.append((author_name, affiliation))
                     else:
-                        # Original behavior: get top k overall
                         authors_df = df
                         top_authors_series = authors_df['Author'].value_counts().head(k)
                         for author_name in top_authors_series.index:
@@ -718,9 +692,6 @@ async def outreach_mode(args):
     except Exception as e:
         print(f"An error occurred while sending emails: {e}")
 
-
-# --- Main Execution ---
-
 async def main():
     parser = argparse.ArgumentParser(
         description="Scrape and analyze paper data from ICML, NeurIPS, and ICLR."
@@ -736,7 +707,6 @@ async def main():
         default="papers.csv",
         help="File to store data. Used as input for analysis. [Default: papers.csv]",
     )
-    # Arguments for scrape mode
     parser.add_argument(
         "--years",
         help="Year or year range (e.g., 2020 or 2018-2020). Required for 'scrape' mode.",
@@ -747,7 +717,6 @@ async def main():
         type=int,
         help="Number of parallel requests for scraping. [Default: 500]",
     )
-    # Arguments for outreach mode
     parser.add_argument(
         "--contacts-file",
         default="contacts.csv",
